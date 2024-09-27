@@ -9,6 +9,9 @@
   padding:0;
 }
 body{
+  height: 100hv;
+  font font-family: 'monteserrat', sans-serif;
+  box-sizing:border-box;
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
 }
@@ -16,7 +19,7 @@ body{
 
 .apresentacao{
  display: flex;
- margin: 10%;
+ margin: 10% 15%;
  align-items: center;
  justify-content: space-between;
 }
@@ -41,12 +44,21 @@ a{
 
 .apresentacao__conteudo{
   width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px; 
 }
 
 .apresentacao__conteudo__titulo{
+  font-family: 'krona One', 'sans-serif';
   font-size: 36px;
 }
 
 .apresentacao__conteudo__texto{
   font-size: 24px;
+  font-family:'montserrat', sans-seref;
+}
+
+.apresentacao__links{
+  display: flex;
 }
