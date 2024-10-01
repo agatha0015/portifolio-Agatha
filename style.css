@@ -28,14 +28,26 @@ body{
   color: var(--cor-destaque);
 }
 
-a{
+.apresentacao__links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+
+.apresentacao__links__link{
+  width: 378px;
+  border: 2px solid var(--cor-destaque);
   color: var(--cor-texto);
-  font-size: 18px;
+  font-size: 24px;
   text-decoration: none;
-  background: var(--cor-detaque);
-  padding: 20px 40px;
-  margin: 10px;
-  border-radius: 25px;
+  padding: 21.5px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'montserrat', sans-serif;
 }
 
 .foto{
@@ -46,7 +58,7 @@ a{
   width: 615px;
   display: flex;
   flex-direction: column;
-  gap: 40px; 
+  gap: 40px;
 }
 
 .apresentacao__conteudo__titulo{
